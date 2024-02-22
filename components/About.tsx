@@ -38,6 +38,7 @@ export default function About({}: Props) {
         src='https://media.gettyimages.com/id/1065402040/photo/close-up-portrait-of-confident-young-businessman.jpg?s=612x612&w=0&k=20&c=OccCikjHtcdJt42oR8SDb5budda3URCqu1nffljWbtA='
         className='mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 
             xl:w-[500px] xl:h-[600px]'
+        alt='placeholderimage for now..'
         />
         <div className='space-y-10 px-0 md:px-10 content-center'>
             <h4 className='text-4xl font-semibold justify-center items-center'>Here is a {''} 
