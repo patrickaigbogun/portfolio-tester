@@ -5,7 +5,9 @@ type Props = {}
 
 function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
+    w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100
+    opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden '>
         <motion.img
             initial={{
                 y: -100,
@@ -31,9 +33,12 @@ function ExperienceCard({}: Props) {
             <h4 className='text-4xl font-light'>CEO of VOSEKDBA</h4>
             <p className='font-bold text-2xl mt-1'>VOSEKDBA</p>
             <div className='flex space-x-2 my-2'>
-                {/*Tech used*/}
-                {/*Tech used*/}
-                {/*Tech used*/}
+                <img className='h-10 w-10 rounded-full'
+                src="../public/logo512.png" alt="technology usedtechnology used" />
+                <img className='h-10 w-10 rounded-full'
+                src="../public/logo512.png" alt="" />
+                <img className='h-10 w-10 rounded-full'
+                src="../public/logo512.png" alt="technology used" />
             </div>
             <p className='uppercase py-5 text-gray-300' >Started work .. - Ended..</p>
 
