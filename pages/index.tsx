@@ -9,46 +9,46 @@ import Projects from '@/components/Projects';
 import ContactMe from '@/components/ContactMe';
 
 const Home: NextPage = () => {
-  return (
-    <div className=' bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0' >
-      
-      {/* head */}
-        <Head>
-          <title>Patrick's portfolio</title>
-        </Head>
+	return (
+		<div className=' bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0' >
 
-      {/* Header */}
-        <Header />
+			{/* head */}
+			<Head>
+				<title>Patrick portfolio</title>
+			</Head>
 
-      {/* hero */}
-      <section id="hero" className='snap-start' >
-        <Hero/>
-      </section>
+			{/* Header */}
+			<Header />
 
-      {/* about */}
-      <section id="about" className='snap-center mt-8 mb-8' >
-        <About/>
-      </section>
+			{/* hero */}
+			<section id="hero" className='snap-start' >
+				<Hero />
+			</section>
 
-      {/* experience */}
-      <section id="experience" className='snap-center mt-8 mb-8' >
-        <WorkExperience/>
-      </section>
-      {/* skills */}
-      <section id='skills' className='snap-start'>
-        <Skills/>
+			{/* about */}
+			<section id="about" className='snap-center mt-8 mb-8' >
+				<About />
+			</section>
 
-      </section>
-      {/* projects */}
-      <section id='projects' className='snap-start' >
-      <Projects/>
-      </section>
-      {/* contact me */}
-      <section id='contact' className='snap-start'>
-        <ContactMe/>
-      </section>
-    </div>
-  );
+			{/* experience */}
+			<section id="experience" className='snap-center mt-8 mb-8' >
+				<WorkExperience />
+			</section>
+			{/* skills */}
+			<section id='skills' className='snap-start'>
+				<Skills />
+
+			</section>
+			{/* projects */}
+			<section id='projects' className='snap-start' >
+				<Projects />
+			</section>
+			{/* contact me */}
+			<section id='contact' className='snap-start'>
+				<ContactMe />
+			</section>
+		</div>
+	);
 };
 
 export default Home;
